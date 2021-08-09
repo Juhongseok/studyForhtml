@@ -1,0 +1,238 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+.content48{
+    font-size: 48px;
+    font-weight: 100;
+}
+.content20{
+    font-size: 20px;
+    font-weight: 10;
+}
+.content24{
+    font-size: 24px;
+    font-weight: 50;
+}
+.content18{
+    font-size: 18px;
+    font-weight: 10;
+}
+.content14{
+    font-size: 14px;
+    font-weight: 10;
+}
+.intro{
+    background-image:url("image/intro.png");
+    height: 718px;
+}
+.header{
+    display: flex;
+    width: 1280px;
+    height: 86px;
+    margin: auto;
+}
+.search{
+    width: 300px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 24px;
+    border-radius: 5px;
+
+}
+.search form input{
+    border: none;
+    background: rgba(0, 0, 0, 0.0);
+    width: 260px;
+    height: 40px;
+    color: #fff;
+    padding: 6px;
+}
+.search form span{
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.navi{
+    display: flex;
+    width: 980px;
+    justify-content: flex-end;
+    line-height: 86px;
+}
+.navi li{
+    margin-left: 84px;
+}
+.navi li a{
+    color: #fff;
+}
+.intro_text{
+    text-align: center;
+    margin: 231px auto auto auto;
+}
+.intro_text h1,
+.intro_text h4{
+    color: #fff;
+}
+.detail {
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+.detail li{
+    flex: 1;
+    height: 132px;
+}
+.detail >li> div{
+    color: #000;
+    text-align: center;
+    height: 57px;
+    margin-top: 37px;
+}
+.detail li:not(:last-child)>div{
+    border-right: 1px solid rgba(126, 124, 124, 0.5);
+}
+.main{
+    background: #f1f2f3;
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+}
+.main >h1{
+    width: 144px;
+    height: 57px;
+    font-size: 48px;
+    font-weight: 200;
+    padding-top: 116px;
+    padding-left: 878px;
+    color: #000;
+}
+.main> .content20{
+    width: 600px;
+    height: 24px;
+    padding-top: 3px;
+    padding-left: 688px;
+    color:#000;
+}
+.icon{
+    display: flex;
+    width: 1280px;
+    margin: 49px auto auto auto;
+}
+.icon> li{
+    height: 302px;
+    flex: 1;
+    background: white;
+}
+.icon> li:not(:last-child){
+    margin-right: 20.6px;
+}
+.icon> li{
+    text-align: center;
+}
+.icon> li> div> img{
+    margin-top: 36px;
+}
+.icon .button{
+    width: 100px;
+    height: 30px;
+    margin: 25px auto auto auto;
+    background: #2f7af4;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.service{
+    width: 100%;
+    height: 659px;
+    background: #fff;
+}
+.service> h1{
+    width: 168px;
+    height: 57px;
+    font-size: 48px;
+    font-weight: 50;
+    color: #000;
+    margin: 50px auto auto 876px;
+}
+.service> .content20{
+    width: 550px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 20;
+    color: #000;
+    margin: 3px auto auto 713px;
+}
+.text{
+    width: 1280px;
+    height: 426.5px;
+    margin: 49px auto auto auto;
+    display: flex;
+}
+.text> div{
+    flex: 1;
+}
+.text> .image{
+    padding: 20px;
+}
+.text .content24{
+    margin-bottom: 27px;
+    font-weight: 1000;
+}
+.text .main_text{
+    font-size: 16px;
+}
+.contact{
+    width: 100%;
+    height: 420px;
+    background-image: url("image/contact.png");
+}
+.contact>ul{
+    display: flex;
+    padding-top: 138px;
+}
+.contact>ul>li{
+    flex:1;
+    text-align: center;
+}
+.contact>ul>li>div>h1,
+.contact>ul>li>div{
+    color: #fff;
+}
+.contact>ul>li>.button{
+    border: 1px solid #fff;
+    width: 220px;
+    height: 40px;
+    margin: 10px auto;
+    cursor: pointer;
+    line-height: 40px;
+}
+footer{
+    height: 244px;
+    display: flex;
+    background: #1f1f1f;
+}
+footer>.logo1{
+    flex:3;
+    text-align: center;
+    padding-top: 95px;
+    color: #fff;
+    font-size: 48px;
+}
+footer>.logo2{
+    flex: 9;
+    color: #fff;
+    padding-top: 51px;
+    font-size: 20px;
+    margin-left: 207px;
+}
